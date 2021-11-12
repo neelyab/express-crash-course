@@ -1,0 +1,12 @@
+Getting started:
+npm init -y (this creates your package.json)
+
+npm i express (installs express)
+
+touch index.js (create index.js file)
+
+npm i -D nodemon ( install nodemon but only as a dev dependency)
+        create a script in package.json under scripts "start: "node index", "dev": "nodemon index"
+        >>nodemon restarts the server everytime changes are made
+
+
